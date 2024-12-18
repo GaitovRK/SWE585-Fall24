@@ -252,7 +252,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 338187951}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -20, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1022,14 +1022,14 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 963194225}
-  m_LocalRotation: {x: 0, y: 1, z: 0, w: 0}
-  m_LocalPosition: {x: 0, y: 2.19, z: 33.4}
+  m_LocalRotation: {x: -0.013554839, y: 0.9409399, z: -0.33783767, w: 0.017721957}
+  m_LocalPosition: {x: 0.5, y: -7.2, z: 11.5}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 180, z: 0}
+  m_LocalEulerAnglesHint: {x: 39.441, y: 176.845, z: -2.782}
 --- !u!1001 &1012719146
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1498,9 +1498,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ragdollPrefab: {fileID: 5723827961871237906, guid: 532d17e1e89b94c6c8f9d328f719ba80, type: 3}
   spawnPoint: {fileID: 338187952}
-  respawnTime: 0.5
-  initialSpeed: 10
-  numberOfRagdolls: 20
+  respawnTime: 5
+  initialSpeed: 2
+  numberOfRagdolls: 1
   spawnDistance: 2
 --- !u!4 &1519481699
 Transform:
